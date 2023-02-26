@@ -1,0 +1,20 @@
+<--Command Line Execution-->
+
+JMeter bin Folder Path:
+
+C:\Users\JMeterTest\Softwares\JMeterWorkshop_10thFeb\JM55-04Feb2023\Apache_JMeter_5.5\bin\jmeter.bat
+
+
+Command Line Execution:
+
+jmeter -n -t [jmx file] -l [results file] -e -o [Path to web report folder]
+
+jmeter -n -t C:\Users\JMeterTest\Softwares\JMeterWorkshop_10thFeb\Test_TestPlan\MySQL_Demo.jmx -l C:\Users\JMeterTest\Softwares\JMeterWorkshop_10thFeb\Test_Reports\logs\11Feb2023_174301.jtl -e -o C:\Users\JMeterTest\Softwares\JMeterWorkshop_10thFeb\Test_Reports\11Feb2023_174301
+
+https://jmeter.apache.org/usermanual/get-started.html#options
+
+-n => run JMeter in nongui mode
+-t => the jmeter test(.jmx) file to run
+-l => the file to log samples to
+-e => generate report dashboard after load test
+-o => specifies output folder where to generate the report dashboard after load test. Folder must not exist or be empty.
