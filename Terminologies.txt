@@ -1,0 +1,9 @@
+Terminologies:
+
+HTTP - Hyper Text Transfer Protocol 
+CRUD - Create, Read, Update, Delete 
+QA - Quality Assistance 
+UAT – User Acceptance Testing 
+API - Application Programming Interface 
+APIs - Set of different but related API 
+GUI - Graphical User Interface
