@@ -1,0 +1,44 @@
+Systematic
+------------
+
+F. I. B. L. O. T. S
+-------------------
+
+Frequent: Commom User Activities: Read / Write
+
+Intensive: Resource Intensive: Read - Heavy Payloads
+
+Business Critical - No matter how Non Risky or Edge Cased it might seem e.g. Dashboards, Reports
+
+Legally Enforceable: SLA e.g. Day 1 users would be 100,000 in just 15 minutes. We can't afford an outage
+
+Obvious: User will predominantly see and will complain about e.g. Registration and Auto-Login
+
+Technically Risky
+
+Stakeholder Mandated
+
+
+A Principle
+------------
+80 / 20
+
+Not all User Activities, no matter how complex or lucrative it might appear, is eligible for intensive load test. Pareto Principle helps here. At least for prioritization
+
+
+A thinking tool - It is not 5 Why
+-----------------
+5W 1H
+Why
+What
+Who
+Where
+When
+How
+How Often
+
+
+5 Why - Ishikawa Diagram
+
+RCA
+Postmortem of an Incident
